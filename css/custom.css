@@ -1,0 +1,148 @@
+body {
+    margin: 4px;
+}
+#CompanyLogoImageDiv {
+    position:absolute;
+    left:0px;
+    top:0px;
+    margin:20%;
+    z-index:0;
+}
+table.page_container {
+	position: relative;
+	background-color: rgb(216, 255, 196);
+	border: 2px solid black;
+	border-radius: 15px;
+	padding: 20px;
+}
+button.ui-dialog-titlebar-close {
+  display: none;
+}
+.file_upload_label {
+    border: 3px outset rgb(210, 210, 210);
+    border-radius: 5px;
+    padding: 3px 3px 1px;
+    font-size: 14px;
+    background-color: rgb(219, 219, 219);
+    position:relative;
+    top:5px;
+}
+table.page_datatable_layout>tbody>tr>td.datatable_button_styling {
+    padding-left:3px;
+    padding-right:2px;
+    padding-top:3px;
+    padding-bottom:0px;
+    margin-top:3px;
+}
+table.page_datatable_layout th {
+    color:#A9E4A5;
+    text-align: left;
+}
+table.page_container select {
+    height:25px;
+}
+table.page_container h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+table.page_container h2 {
+    margin-bottom: 0px;
+}
+table.page_container td.button_row {
+    padding-top:15px;
+}
+table.page_container td, table.page_container td {
+    vertical-align:top;
+}
+.to_be_deleted {
+    background-color: rgb(255, 132, 132);
+}
+table.page_container td.vertical_center {
+    vertical-align:middle;
+}
+
+table.page_container td.right_col button, table.page_container th.right_col button {
+    float:right;
+}
+table.page_container th.sub_heading, table.page_container td.sub_heading {
+   text-align: left;
+}
+table.page_container th.left_col, table.page_container td.left_col {
+   text-align: right;
+   margin-top: 5px;
+   padding-right: 5px;
+   //padding-bottom: 5px;
+}
+table.page_container button {
+    border: 3px outset rgb(210, 210, 210);
+    border-radius: 5px;
+    padding: 5px 5px 1px;
+    font-size: 18px;
+    background-color: rgb(219, 219, 219);
+}
+div.ui-tabs-panel {
+    position:relative;
+    z-index:1;
+    clear:left;
+    color:black;
+}
+div#tabs>ul>li {
+    cursor:pointer;
+}
+#expenses
+{
+    color: #000000;
+}
+#incomes
+{
+    color: #000000;
+}
+table.dialogLayout
+{
+	width: 100%;
+}
+td.twocol
+{
+	width: 50%;
+	#background-color: red;
+}
+table.report
+{
+	border-collapse: collapse;
+	border: solid 5px;
+}
+table.report tr.report_row>td
+{
+	border-bottom: solid thin;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	padding-right:15px;
+	padding-left:15px;
+}
+table.report th
+{
+	padding-top: 10px;
+	padding-bottom: 2px;
+	border-bottom: solid 5px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+}
+table.report td.amount
+{
+	text-align: right;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+table.report td.description
+{
+	text-align: left;
+	padding-left: 25px;
+	
+}
+#menus ul li
+{
+    height: auto;
+    min-height: 25px;
+    width: auto;
+    min-width: 100px;
+}

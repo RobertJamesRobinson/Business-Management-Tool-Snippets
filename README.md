@@ -1,0 +1,1 @@
+Partial files from current main project, files supplied for example only, does not contain complete working code
